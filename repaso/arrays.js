@@ -7,7 +7,7 @@
  * mostrará por consola el contenido del array.
  *
  */
-let datos = [];
+const datos = [];
 let acabar = '';
 while (acabar !== 'fin') {
     acabar = prompt('dime la palabra');
