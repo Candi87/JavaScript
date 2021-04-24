@@ -16,10 +16,10 @@
 
 const text = 'JavaScript mola mucho';
 
-let contador = 0;
+let total = 0;
 
 for (let i = 0; i < text.length; i++) {
-    if (text[i] !== ` `) contador++;
+    if (text[i] !== ' ') total++;
 }
 
-console.log(contador);
+console.log(total);

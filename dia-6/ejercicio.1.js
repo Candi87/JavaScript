@@ -1,5 +1,3 @@
-'use strict';
-
 /* #################
  * ## Ejercicio 1 ##
  * #################
@@ -20,13 +18,35 @@ const nums = [3, 4, 13, 5, 6, 8];
 
 for (const num of nums) {
     if (num % 2 === 0) {
-        console.log(`el ${num} es par`);
+        console.alert(`${num} es par`);
     } else {
-        console.log(`el ${num} es impar`);
+        console.alert(`${num} es impar`);
     }
 }
+
+console.log('#############');
+
 function isPrime(num) {
     for (let i = 2; i < num; i++) {
         if (num % i === 0) return false;
     }
+    return true;
 }
+
+for (const num of nums) {
+    if (isPrime(num)) {
+        console.warn(`${num} es primo`);
+    } else {
+        console.error(`${num} no es primo`);
+    }
+}
+
+console.log('#############');
+
+const double = [];
+
+for (const num of nums) {
+    double.push(num * 2);
+}
+
+console.log(double);
