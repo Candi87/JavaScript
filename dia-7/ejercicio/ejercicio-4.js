@@ -13,12 +13,11 @@ const myText = 'Arriba la birra';
 
 function reves(texto) {
     const temporal = texto.split('');
-    temporal.reverse();
+    temporal.reves();
 
     console.log(temporal.join(''));
 }
-const=temporal2;
+myText = myText.toLowerCase().replaceAll(' ', '');
+const reverseText = reves(myText);
 
-temporal2 = myText.replace(' ', '');
-
-console.log(myText);
+console.log(myText === reverseText);
