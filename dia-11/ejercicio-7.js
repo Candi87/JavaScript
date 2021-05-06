@@ -65,10 +65,10 @@ const persons = [
  *  Número total de infectados del array de personas.
  *
  */
-// const result = persons.filters((person) => {
-//     return person.ifected;
-// });
-// console.log(result.length);
+const result = persons.filters((person) => {
+    return person.ifected;
+});
+console.log(result.length);
 
 /**
  *  =======================
@@ -215,10 +215,10 @@ const countries = [
  *  Array con el nombre de todas las mascotas.
  *
  */
-const namePet = petNames.map((petName) => {
-    return petNames.petName;
-});
-console.log(namePet);
+// const namePet = petNames.map((petName) => {
+//     return petNames.petName;
+// });
+// console.log(namePet);
 
 /**
  *  ###########################
